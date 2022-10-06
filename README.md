@@ -10,4 +10,4 @@ We thankfully acknowledge the support of the European Commission and the Greek G
 
 # Purpose
 
-This software is a collection of scripts and docker images used to deploy containers over one or multiple physical hosts for developing distributed software. It uses docker to build containers and and docker swarm to create an overlay network to connect these containers together in order to simulate a cluster. The initial use was for developing and testing OpenMPI and PMIx.
+This software is a collection of scripts that create a PKI based Certificate Authority. Then using this CA we can create certificates and revoke,validate and verify them. Then we use these certificates to sign singularity container images and verify them after, similar to how singularity containers are signed and verified with PGP certificates.
